@@ -67,7 +67,7 @@ export default function ShopGrid() {
                 {/* Product Image */}
                 <div className="relative aspect-square w-full overflow-hidden bg-brand-cream">
                   <img
-                    src={`/bella-africano-skincare/products/${p.id}.jpg`}
+                    src={`/products/${p.id}.jpg`}
                     alt={p.name}
                     className="h-full w-full object-contain p-3 group-hover:scale-105 transition-luxury duration-700"
                     loading="lazy"

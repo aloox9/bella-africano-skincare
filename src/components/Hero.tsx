@@ -72,7 +72,7 @@ export default function Hero() {
             <motion.div variants={itemVariants} className="flex flex-col sm:flex-row items-center lg:items-start gap-4">
               <div className="relative p-1 bg-white rounded-full border border-brand-amber/10 shadow-md">
                 <img
-                  src="/bella-africano-skincare/logo.jpg"
+                  src="/logo.jpg"
                   alt="Bella Africano Emblem"
                   className="h-16 w-16 md:h-20 md:w-20 object-cover rounded-full"
                 />
@@ -144,7 +144,7 @@ export default function Hero() {
               whileHover={{ scale: 1.05, rotate: -2, zIndex: 30 }}
               className="absolute top-4 left-6 w-48 h-48 bg-white p-3 rounded-2xl shadow-xl border border-brand-amber/5 cursor-pointer transition-shadow hover:shadow-2xl"
             >
-              <img src="/bella-africano-skincare/products/p2.jpg" alt="Cacao Butter" className="w-full h-full object-contain" />
+              <img src="/products/p2.jpg" alt="Cacao Butter" className="w-full h-full object-contain" />
               <div className="absolute bottom-2 right-3 text-[9px] font-serif text-brand-amber bg-brand-badge px-2 py-0.5 rounded-full">
                 Cacao Butter
               </div>
@@ -158,7 +158,7 @@ export default function Hero() {
               whileHover={{ scale: 1.05, rotate: 2, zIndex: 30 }}
               className="absolute top-32 right-2 w-44 h-48 bg-white p-3 rounded-2xl shadow-xl border border-brand-amber/5 cursor-pointer transition-shadow hover:shadow-2xl"
             >
-              <img src="/bella-africano-skincare/products/p10.jpg" alt="Oil + SPF 15" className="w-full h-full object-contain" />
+              <img src="/products/p10.jpg" alt="Oil + SPF 15" className="w-full h-full object-contain" />
               <div className="absolute bottom-2 right-3 text-[9px] font-serif text-brand-amber bg-brand-badge px-2 py-0.5 rounded-full">
                 Oil + SPF 15
               </div>
@@ -172,7 +172,7 @@ export default function Hero() {
               whileHover={{ scale: 1.05, y: -6, zIndex: 30 }}
               className="absolute bottom-2 left-20 w-48 h-48 bg-white p-3 rounded-2xl shadow-xl border border-brand-amber/5 cursor-pointer transition-shadow hover:shadow-2xl"
             >
-              <img src="/bella-africano-skincare/products/p5.jpg" alt="Exfoliant Cream" className="w-full h-full object-contain" />
+              <img src="/products/p5.jpg" alt="Exfoliant Cream" className="w-full h-full object-contain" />
               <div className="absolute bottom-2 right-3 text-[9px] font-serif text-brand-amber bg-brand-badge px-2 py-0.5 rounded-full">
                 Exfoliant Cream
               </div>

@@ -154,7 +154,7 @@ ${itemsLines}
                         {/* Mock Image */}
                         <div className="w-16 h-16 rounded-lg bg-brand-cream overflow-hidden shrink-0 relative">
                           <img
-                            src={`/bella-africano-skincare/products/${item.product.id}.jpg`}
+                            src={`/products/${item.product.id}.jpg`}
                             alt={item.product.name}
                             className="w-full h-full object-contain p-1"
                           />

@@ -24,7 +24,7 @@ export default function Navbar() {
             className="flex items-center gap-2.5 cursor-pointer hover:opacity-90 transition-luxury z-10"
           >
             <img
-              src="/bella-africano-skincare/logo.jpg"
+              src="/logo.jpg"
               alt="Bella Africano Logo"
               className="h-9 w-9 object-cover rounded-full border border-brand-amber/10 shadow-sm"
             />
