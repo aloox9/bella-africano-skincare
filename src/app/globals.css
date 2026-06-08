@@ -1,0 +1,63 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand-cream: #FDFBF7;
+  --color-brand-amber: #B45309;
+  --color-brand-hover: #92400E;
+  --color-brand-badge: #FEF3C7;
+  --color-brand-charcoal: #1F2937;
+  --color-brand-muted: #4B5563;
+  --color-brand-light-cream: #FFFDF9;
+  
+  --font-serif: var(--font-playfair), Georgia, serif;
+  --font-sans: var(--font-inter), sans-serif;
+}
+
+/* Glassmorphism utilities */
+.glass-header {
+  background: rgba(253, 251, 247, 0.75);
+  backdrop-filter: blur(12px);
+  border-bottom: 1px solid rgba(180, 83, 9, 0.08);
+}
+
+.glass-card {
+  background: rgba(255, 253, 249, 0.6);
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(180, 83, 9, 0.05);
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #FDFBF7;
+}
+::-webkit-scrollbar-thumb {
+  background: #B45309;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #92400E;
+}
+
+/* Hide scrollbar utility */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+/* Custom luxury animation speed transitions */
+.transition-luxury {
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.16, 1, 0.3, 1);
+  transition-duration: 350ms;
+}
+
+html {
+  scroll-behavior: smooth;
+}
