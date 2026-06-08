@@ -118,7 +118,7 @@ export default function GlowGuide() {
                           <div className="flex items-center gap-4">
                             <div className="w-12 h-12 rounded-lg bg-brand-cream overflow-hidden shrink-0 relative border border-brand-amber/5 flex items-center justify-center">
                               <img
-                                src={`/products/${p.id}.jpg`}
+                                src={`/bella-africano-skincare/products/${p.id}.jpg`}
                                 alt={p.name}
                                 className="w-full h-full object-contain p-0.5"
                               />

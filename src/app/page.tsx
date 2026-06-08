@@ -32,7 +32,7 @@ export default function Home() {
             <div className="space-y-4 flex flex-col items-center md:items-start">
               <div className="flex items-center gap-3">
                 <img
-                  src="/logo.jpg"
+                  src="/bella-africano-skincare/logo.jpg"
                   alt="Bella Africano Footer Logo"
                   className="h-10 w-10 object-cover rounded-full border border-brand-cream/10"
                 />

@@ -1,8 +1,8 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  output: 'export',
-  basePath: '/bella-africano-skincare',
+  basePath: "/bella-africano-skincare",
+  output: "export",
   images: {
     unoptimized: true,
   },
